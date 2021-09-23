@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="cv.png" />
+        <title>
+            Welcome to My Github CV
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Education">
+        <meta property="og:url" content="https://thammaratinphuk.github.io/boy-thammarat.github.io/education.html">
+        <meta property="og:site_name" content="boy-thammarat.github.io">
+        <meta property="og:url" content="https://thammaratinphuk.github.io/boy-thammarat.github.io/education.html">
+        <script>
+            document.addEventListener('DOMContentLoaded',function() 
+            {
+                document.querySelector('#light').onclick = function() {
+                    document.querySelector('h1').style.backgroundColor ='rgba(255,128,0)';
+                    document.querySelector('h2').style.backgroundColor ='rgba(128,255,255)';
+                    document.querySelector('div1').style.color='rgba(0,0,255)';
+                    document.querySelector('div2').style.color='rgba(0,0,0)';
+                    document.querySelector('div3').style.color='rgba(0,0,0)';
+                    document.querySelector('div4').style.color='rgba(0,0,255)';
+                    document.querySelector('div5').style.color='rgba(0,0,0)';
+                }
+                document.querySelector('#dark').onclick = function(){
+                    document.querySelector('h1').style.backgroundColor ='rgba(255, 255, 255)';
+                    document.querySelector('h2').style.backgroundColor ='rgba(0,0,0)'
+                    document.querySelector('div1').style.color='rgba(0,225,255)';
+                    document.querySelector('div2').style.color='rgba(255,255,255)';
+                    document.querySelector('div3').style.color='rgba(255,255,255)';
+                    document.querySelector('div4').style.color='rgba(0,225,255)';
+                    document.querySelector('div5').style.color='rgba(255,255,255)';
+                }                        
+            });     
+        </script>
+        <style>
+            
+            #grid{
+                display:grid;
+                padding:10px;
+                grid-template-columns: 100%;
+            }
+            .grid-item{
+                background-color:rgb(255, 255, 255);
+                padding:20px;
+                
+            }
+            @media screen and (min-width:1100px){
+                body{
+                    margin-left: 300px;
+                    margin-right: 300px;                                  
+                }
+                
+            }
+            @media screen and (max-width:1099px){
+                div1{
+                    color: rgb(0, 0, 0);
+                }
+               
+            }
+        </style>
+
+    </head>
+    <body background="night.gif">
+       <div id="grid">
+            <h1 class="grid-item">
+                <div style="text-align:center;">
+                    <button id="light" style="border:0px solid rgb(0, 0, 0); background-color: transparent;font-size: 40px;font-weight:800;">LIGHTMODE</button> 
+                    <button id="dark" style="border:0px solid black; background-color: transparent;font-size: 40px;font-weight:800;">DARKMODE</button> 
+                </div>
+            </h1>  
+            <h2 class="grid-item" style="background-color: rgba(0,0,0);text-align:center;">
+                    <div style="background-color:rgb(60, 255, 0);font-family:system-ui;font-weight:150px;font-size:40px;text-align:center;">
+                        <a href = "https://thammaratinphuk.github.io/boy-thammarat.github.io/">My Profile</a><br>
+                        <a href = "https://thammaratinphuk.github.io/boy-thammarat.github.io/education.html">Education</a><br>
+                        <a href = "https://thammaratinphuk.github.io/boy-thammarat.github.io/contact.html">Contact</a>
+                    </div>
+                    <div1 style="color:rgb(0, 225, 255);font-family: system-ui;font-weight: 600;font-size:30px;text-align:Center;">
+                        <br>Education<br>
+                    </div1>
+                    <div style="text-align:center;margin-top: 20px;">
+                        <img src="lptc.png" width="300" height="300">
+                    </div>
+                    <div2 style="color:rgb(255, 255, 255);font-family: system-ui;font-weight: 300;font-style: italic;font-size:18px;text-align:Center;">
+                        <br>2016 - Vocational Certificated in Electronic Department at Lampang Technical College
+                        <br>2018 - High Vocational Certificated in Industrial Electronic Department at Lampang Technical College<br><br>
+                    </div2>
+                    <div style="text-align:center;margin-top: 20px;">
+                        <img src="kmutnb.png" width="300" height="300">
+                    </div> 
+                    <div3 style="color:rgb(255, 255, 255);font-family: system-ui;font-weight: 300;font-size:18px;text-align:center;">
+                        <br>2019 to Present - Studying in Instrumentation Engineering Department at KMUTNB<br>
+                    </div3>
+                    <div4 style="color:rgb(0, 225, 255);font-family: system-ui;font-weight: 600;font-size:30px;text-align:justify;">
+                        <br><br>Internship Experience <br>
+                    </div4>
+                    <div style="text-align:center;margin-top: 20px;">
+                        <img src="maemoh.png" width="600" height="300">
+                    </div>
+                    <div5 style="color:rgb(255, 255, 255);font-family: system-ui;font-weight: 300;font-size:18px;text-align:center;">
+                        <br>2015 - Intern at Mae Moh EGAT<br>
+                        2018 - Intern at Mae Moh EGAT<br>
+                    </div5>       
+            </h2>
+        </div>
+    </body>
+</html>
